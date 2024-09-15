@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+
+}
+body{
+    background-color: rgb(125, 209, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 10vh;
+}
+.img{
+    text-align: center;
+}
+.main-container{
+    margin: 0 auto;
+    background:#fff;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+input{
+    background-color: rgb(233, 228, 228);
+    width: 85%;
+    margin-left: 19px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.name {
+    justify-content: center;
+    align-items: center;
+}
+.password{
+    justify-content: center;
+    align-items: center;
+}
+.material-icons{
+    top: 7px;
+    position: relative;
+    right: 28px;
+}
+.header{
+    text-align: center;
+    margin-bottom:5px;
+    
+}
+.header h1{
+    color:blue;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+    height: 20px;
+    left: 30px;
+}
+button{
+    margin-top: 5px;
+    width: 95%;
+    padding: 7px;
+    border-radius: 12px;
+    background-color: rgb(24, 24, 216);
+    color:#fff;
+    border:none;
+}
+.footer{
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    color:blue;
+}
+.langue{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:40px;
+    color:blue;
+
+}
